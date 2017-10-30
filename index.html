@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Orchard: Front End Test</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="node_modules/bootstrap/dist/css/style.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <section id="profiles" class="page animated bounceInLeft">
+  
+		<div class="container">
+          
+			<div class="row text-center">
+            <div class="col-sm-4 col-xs-12 profile"></div>
+			<div class="col-sm-4 col-xs-12 profile"><div class="heading">
+					<h2 class="text-uppercase">Taste The Colours</h2>
+					<hr>
+				</div>
+                </div>
+                <div class="col-sm-4 col-xs-12 profile"></div>
+			</div>
+				
+			<div class="container-fluid">
+				<div class="row text-center" id="profile-grid">
+				
+					<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Red" class="thumb">
+				          		<img src="node_modules/bootstrap/images/red.png" class="img-responsive center-block animated pulse" data-toggle="modal" data-target=".modal-profile-lg">
+				          	</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Red</p>
+				            <p>Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.</p>
+				          </div>
+				        </div>
+				    </div>
+                  
+					<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Green" class="thumb">
+				          		<img src="node_modules/bootstrap/images/green.png" class="img-responsive center-block animated pulse" data-toggle="modal" data-target=".modal-profile-lg">
+				          	</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Green</p>
+				            <p>Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours</p>
+				          </div>
+				        </div>
+				    </div>
+
+					<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="White" class="thumb">
+				          		<img src="node_modules/bootstrap/images/white.jpg" class="img-responsive center-block animated pulse" data-toggle="modal" data-target=".modal-profile-lg">
+				          	</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">White</p>
+				            <p>White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.</p>
+				          </div>
+				        </div>
+				    </div> 
+     
+   				 </div>
+			</div>
+		</div>
+
+	</section>
+	
+	<!-- .modal-profile -->
+	<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal">×</button>
+						<h3 class="modal-title"></h3>
+					</div>
+					<div class="modal-body">
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+        
+			</div>
+		</div>
+	<!-- //.modal-profile -->
+    <!--Section 2-->
+    <section class="animated bounceInRight">
+            <div class="container" id="shape">
+                 <div class=" col-xs-12 col-sm-6 col-md-4 bou">
+                      <img class="img-responsive h p_b1 center-block" src="node_modules/bootstrap/images/shape_1.jpg" alt="Shape Image">
+                            
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive p_b p_t1 center-block" src="node_modules/bootstrap/images/shape_2.jpg" alt="Portfolio Image">
+ <img class="img-responsive p_t center-block" src="node_modules/bootstrap/images/shape_3.jpg" alt="Portfolio Image">
+                        </div>       
+                        
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <!-- Work -->
+                        <div class="heading">
+                        <h2 class="text-uppercase">Taste: A five-sense experience</h2>
+                        <hr>
+                        </div>
+                        <p>Our visual sense provide up to 28% of our taste experience.This is a theory Instagram checf Jacques La Merde takes to the extreme. Serving up Exquisite tasting plates -in fact made from gas station ingredienta -to her thousands of followers, she demonstrates how visual techniques affect our perception of food.</p><br>
+                        <h5 class="text-uppercase text-secondary"><strong>Food that looks it best</strong></h5>
+                        <p><strong>
+Enhance the flavour of your food by using a variety of colurs and shapes to entice the eyes.</strong></p>
+                        <!-- End Work -->
+                    </div>
+                </div>
+                <!-- End Masonry Grid -->
+            </section>
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="node_modules/bootstrap/dist/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+	 $(document).ready(function() {
+/* show lightbox when clicking a thumbnail */
+    $('a.thumb').click(function(event){
+    	event.preventDefault();
+    	var content = $('.modal-body');
+    	content.empty();
+      	var title = $(this).attr("title");
+      	$('.modal-title').html(title);      	
+      	content.html($(this).html());
+      	$(".modal-profile").modal({show:true});
+    });
+
+  });
+	</script>
+  </body>
+</html>
